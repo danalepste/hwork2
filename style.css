@@ -52,7 +52,6 @@ header .tools {
 }
 
 .hero .action {
-    background-color: burlywood;
     text-align: center;
     grid-area: action;
     margin-right: 60px;
