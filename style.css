@@ -39,6 +39,17 @@ header .tools {
     grid-area: tools;
 }
 
+header ul li {
+    color: chocolate;
+    background: rgb(orange, yellow, blue);
+    display: none;
+    float: left;
+    padding: 5px;
+    position: relative;
+    margin-right: 1px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
 
 .hero {
     padding: 10px;
