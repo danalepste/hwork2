@@ -10,14 +10,26 @@
     <body>
         <header>
             <img src="https://fv9-3.failiem.lv/thumb_show.php?i=fe2h2ry8v&view" alt="logo" height="100px">
-            <div class="topnav">
-                <a class="active" href="#about">About</a>
-                <a href="#trails">Trails</a>
-                <a href="#clothes">Clothes</a>
-                <a href="#blog">Blog</a>
-                <input type="text" placeholder="Search..">
-              </div>
-        </header>
+                        <nav role="navigation">
+                    <ul>   
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#trails">Trails</a></li>
+                        <li><a href="#clothes">Clothes</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                            <ul class="dropdown" arial-label="submenu">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Trails</a></li>
+                                <li><a href="#">Clothes</a></li>
+                                <li><a href="#">Blog</a></li>
+                    </ul>
+                </li>               
+            </ul>
+        </nav>
+    </div>
+    <div class="tools">
+        <input type="text" placeholder="Search..">
+    </div>
+    </header>
     <hr>
         <img src="https://media.california.com/media/_versions/articles/off_the_beaten_path_hero__2500x1326___v1222x580.jpg" alt="hiking" height="300px">
         <h1>Let's go on an adventure!</h1>
