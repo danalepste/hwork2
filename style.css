@@ -16,10 +16,6 @@ body {
 
 
 header {
-    font-size: 16px;
-    display: grid;
-    background: rgb(235, 155, 75);
-    width: 100%;
     padding: 10px;
     grid-area: header;
 
@@ -43,17 +39,6 @@ header .tools {
     grid-area: tools;
 }
 
-header ul li {
-    color: chocolate;
-    background: rgb(orange, yellow, blue);
-    display: none;
-    float: left;
-    padding: 5px;
-    position: relative;
-    margin-right: 1px;
-    text-decoration: none;
-    transition-duration: 0.5s;
-}
 
 .hero {
     padding: 10px;
