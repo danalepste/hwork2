@@ -43,16 +43,55 @@ header .tools {
     grid-area: tools;
 }
 
+header ul {
+	background: rgb(28, 191, 255);
+    list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
 header ul li {
-    color: chocolate;
-    background: rgb(orange, yellow, blue);
-    display: none;
-    float: left;
-    padding: 5px;
-    position: relative;
-    margin-right: 1px;
-    text-decoration: none;
-    transition-duration: 0.5s;
+	color: rgb(255, 255, 255);
+	background: rgb(28, 191, 255);
+	display: none;
+	float: left;
+	padding: 5px;
+	position: relative;
+	margin-right: 1px;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+header ul li.mobile,
+header ul li ul li
+{
+    display: block;
+}
+ 
+
+header ul li a {
+	color: #fff;
+}
+
+header ul li:hover,
+header ul li:focus-within {
+	background:  rgb(28, 191, 255a);
+	cursor: pointer;
+}
+
+header li:focus-within a {
+	outline: none;
+}
+
+header ul li ul {
+	background: rgb(28, 191, 255);
+	visibility: hidden;
+	opacity: 0;
+	min-width: 5rem;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 1rem;
+	left: 0;
+	display: none;
 }
 
 .hero {
